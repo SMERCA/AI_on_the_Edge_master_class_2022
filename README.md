@@ -52,3 +52,8 @@ pip3 install -r requirements.txt
 The therorical contents of the class are located in the folder `theory` and the practical contents are located in the folder `notebooks`.
 
 The practical contents are Jupyter Notebooks that can be run in a local environment with [`vscode`](https://code.visualstudio.com/) or [`jupyter-lab`](https://jupyter.org/) or in the cloud using [`google colab`](https://colab.research.google.com/?utm_source=scs-index).
+
+You can run tensorboard to see the training logs in real time, inside the virtual environment, at the root directory of the project just type:
+```bash
+tensorboard --logdir notebooks/logs
+```
